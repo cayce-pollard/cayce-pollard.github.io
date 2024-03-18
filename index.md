@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/cayce-pollard/cayce-pollar
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.-->
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset=https://www.dropbox.com/scl/fi/c5mfhkdcguvak9o65k6b0/hacker1.png?rlkey=7khtms55un0rjprfwdjai41cs&dl=0>
+ <source media="(prefers-color-scheme: dark)" srcset=https://www.dropbox.com/scl/fi/c5mfhkdcguvak9o65k6b0/hacker1.png>
  <source media="(prefers-color-scheme: light)" srcset=https://www.dropbox.com/scl/fi/c5mfhkdcguvak9o65k6b0/hacker1.png?rlkey=7khtms55un0rjprfwdjai41cs&dl=0>
  <img alt="A woman sitting at her desktop" src="https://www.dropbox.com/scl/fi/c5mfhkdcguvak9o65k6b0/hacker1.png?rlkey=7khtms55un0rjprfwdjai41cs&dl=0">
 </picture>
