@@ -8,7 +8,10 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
  <source media="(prefers-color-scheme: light)" srcset="https://www.dropbox.com/scl/fi/c5mfhkdcguvak9o65k6b0/hacker1.png?rlkey=7khtms55un0rjprfwdjai41cs&dl=0">
  <img alt="A woman sitting at her desktop" src="https://www.dropbox.com/scl/fi/c5mfhkdcguvak9o65k6b0/hacker1.png?rlkey=7khtms55un0rjprfwdjai41cs&dl=0">
 </picture>
+<!--##
+https://previews.dropbox.com/p/thumb/ACMqSG_gQVizUg5B91GiiWqHeMHLLCA34t9tUmW71e5qklf0TFseP0-fs7qJZh_1qed0xY-YUgfhaVwL7NcKwy4Uxzpg_URcOaW9bsB286dKgL1VCVnjHb7gSu68f7lQ3p-4IK7dykLyXQTJZuup4ufWczBkxssks7yr3pT6-yOUZRPiybFP2dGIsiceuzCbqnNL-tfaxFI8HNO2ZwSYtSgsMUQ4hb8nRRMekkGMgl3xfgZT0nrCvx57Yo8JnXnaNRruAGcSIDd6UNS38OP-0LgLoLx7QIsypG7i-hViv-Mi3-4zCETwYyYEz5I6uktjXzuoYQIT1YDHdqfMOWxxQGRu/p.png
 https://www.dropbox.com/scl/fi/c5mfhkdcguvak9o65k6b0/hacker1.png?rlkey=7khtms55un0rjprfwdjai41cs&dl=0
+-->
 I have a broad interest in the field of complex systems science, which cut across conventional disciplinary boundaries. My research is focused on unraveling the emergence of collective behaviors within systems composed of numerous interacting entities. At present, my interests are centered on a diverse range of topics including complex networks, social networks, the dynamics of opinion formation, biological systems, network-based epidemiology, computational linguistics, and magnetic systems. As a scientist engaged in publicly funded research, I consider it my duty to give back to society. I aim to do this by enhancing public understanding of science and contributing to the advancement of scientific education.
 
 "What I do is pattern recognition. I try to recognize a pattern before anyone else does." W. Gibson
