@@ -4,6 +4,11 @@ You can use the [editor on GitHub](https://github.com/cayce-pollard/cayce-pollar
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+I am generally interested in complex systems science that cuts across the traditional disciplinary boundaries. My research aims at understanding how collective behaviors emerge in systems with many interacting entities. Specifically, I am currently interested in complex networks, social networks, opinion dynamics, biological systems, network epidemiology, computational linguistics, and magnetic systems.
+As a scientist working with public-funded research,  it is my responsibility to pay back to society by promoting public awareness of science and contributing to science education. 
+
+"What I do is pattern recognition. I try to recognize a pattern before anyone else does." W. Gibson
+
 ### Markdown
 
 
