@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francesca Colaiori | Researcher ISC-CNR</title>
+    <meta name="description" content="Academic Portfolio of Francesca Colaiori, Researcher at the Institute for Complex Systems (CNR).">
+    
+    <!-- Tailwind CSS (Styling) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        teal: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            600: '#0d9488',
+                            700: '#0f766e',
+                            800: '#115e59',
+                            900: '#134e4a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans selection:bg-teal-100">
+
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 py-6">
+        <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
+            <a href="#home" class="text-xl font-serif font-bold tracking-tight text-slate-900">
+                F. Colaiori
+            </a>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-8">
+                <a href="#about" class="text-sm font-medium text-slate-600 hover:text-teal-800 transition-colors uppercase tracking-wider">About</a>
+                <a href="#research" class="text-sm font-medium text-slate-600 hover:text-teal-800 transition-colors uppercase tracking-wider">Research</a>
+                <a href="#publications" class="text-sm font-medium text-slate-600 hover:text-teal-800 transition-colors uppercase tracking-wider">Publications</a>
+                <a href="#contact" class="text-sm font-medium text-slate-600 hover:text-teal-800 transition-colors uppercase tracking-wider">Contact</a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" class="md:hidden text-slate-600">
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 w-full bg-white border-b border-slate-100 py-4 px-6 shadow-lg">
+            <div class="flex flex-col space-y-4">
+                <a href="#about" class="mobile-link text-base font-medium text-slate-600 hover:text-teal-800">About</a>
+                <a href="#research" class="mobile-link text-base font-medium text-slate-600 hover:text-teal-800">Research</a>
+                <a href="#publications" class="mobile-link text-base font-medium text-slate-600 hover:text-teal-800">Publications</a>
+                <a href="#contact" class="mobile-link text-base font-medium text-slate-600 hover:text-teal-800">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-32 pb-20 md:pt-48 md:pb-32 px-6">
+        <div class="max-w-4xl mx-auto text-center md:text-left">
+            <div class="inline-block px-3 py-1 bg-teal-50 text-teal-800 text-xs font-bold tracking-widest uppercase rounded-full mb-6">
+                Researcher @ ISC-CNR
+            </div>
+            <h1 class="text-5xl md:text-7xl font-serif font-bold text-slate-900 mb-6 leading-tight">
+                Francesca Colaiori
+            </h1>
+            <p className="text-xl md:text-2xl text-slate-600 max-w-2xl leading-relaxed mb-10">
+                Physicist & Researcher at the Institute for Complex Systems (CNR). Investigating the patterns of nature, from epidemic thresholds to the dynamics of language.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                <a href="https://scholar.google.it/citations?hl=en&user=OpVwPeEAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" class="flex items-center justify-center gap-2 bg-slate-900 text-white px-8 py-3 rounded-full hover:bg-slate-800 transition-all shadow-md hover:shadow-lg">
+                    <i data-lucide="graduation-cap" class="w-4 h-4"></i>
+                    Google Scholar
+                </a>
+                <a href="#contact" class="flex items-center justify-center gap-2 bg-white text-slate-900 border border-slate-200 px-8 py-3 rounded-full hover:bg-slate-50 transition-all">
+                    <i data-lucide="mail" class="w-4 h-4"></i>
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-start">
+                <div>
+                    <h2 class="text-3xl font-serif font-bold text-slate-900 mb-6">About Me</h2>
+                    <div class="prose prose-slate text-lg text-slate-600 leading-relaxed space-y-4">
+                        <p>
+                            I am a Researcher at the <strong>Institute for Complex Systems (ISC-CNR)</strong> in Rome, Italy. My background is in statistical physics, and my work focuses on understanding the emergence of collective behaviors in complex systems.
+                        </p>
+                        <p>
+                            My research bridges the gap between theoretical models and real-world data. I investigate how local interactions give rise to global patterns in diverse fields, including <strong>epidemic spreading</strong>, <strong>social dynamics</strong>, and <strong>linguistic evolution</strong>.
+                        </p>
+                        <p>
+                            Currently, I am exploring how timing and prioritization strategies in vaccination can alter epidemic thresholds, as well as the interplay between media influence and social consensus.
+                        </p>
+                    </div>
+                    
+                    <div class="mt-8 flex flex-wrap gap-4">
+                        <a href="https://www.isc.cnr.it/staff-members/francesca-colaiori/" target="_blank" class="inline-flex items-center text-teal-700 font-semibold hover:underline">
+                            View Institutional Profile <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="relative mt-8 md:mt-0">
+                    <div class="aspect-[4/5] bg-slate-100 rounded-lg overflow-hidden relative border border-slate-200 shadow-inner">
+                        <div class="absolute inset-0 flex items-center justify-center opacity-10">
+                            <i data-lucide="network" class="w-48 h-48 text-slate-900"></i>
+                        </div>
+                        <div class="absolute inset-0 flex items-center justify-center text-slate-400">
+                            <div class="text-center p-6">
+                                <i data-lucide="user" class="w-16 h-16 mx-auto mb-4 text-slate-300"></i>
+                                <span class="font-serif italic">Photo Placeholder</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden md:block absolute -bottom-6 -left-6 bg-teal-900 text-white p-6 rounded-lg shadow-xl max-w-xs z-10">
+                        <p class="font-serif italic text-lg">"What I do is pattern recognition. I try to recognize a pattern before anyone else does."</p>
+                        <p class="text-teal-200 text-xs mt-2 uppercase tracking-wide font-bold">— William Gibson</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Interests -->
+    <section id="research" class="py-20 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-serif font-bold text-slate-900 mb-4">Research Interests</h2>
+                <div class="w-16 h-1 bg-teal-600 mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Interest 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-all border border-slate-100 group">
+                    <div class="w-12 h-12 bg-teal-50 text-teal-700 rounded-full flex items-center justify-center mb-4 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+                        <i data-lucide="activity" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Epidemic Dynamics</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Investigating epidemic thresholds, vaccination timing, and mutually cooperative diseases on complex networks.
+                    </p>
+                </div>
+
+                <!-- Interest 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-all border border-slate-100 group">
+                    <div class="w-12 h-12 bg-teal-50 text-teal-700 rounded-full flex items-center justify-center mb-4 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+                        <i data-lucide="share-2" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Opinion Dynamics</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Modeling how social influence and mass media interact to shape collective opinion and consensus formation.
+                    </p>
+                </div>
+
+                <!-- Interest 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-all border border-slate-100 group">
+                    <div class="w-12 h-12 bg-teal-50 text-teal-700 rounded-full flex items-center justify-center mb-4 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+                        <i data-lucide="languages" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Language Evolution</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Analyzing internal and external dynamics in language change, with a focus on verb regularity and historical corpora.
+                    </p>
+                </div>
+
+                <!-- Interest 4 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-all border border-slate-100 group">
+                    <div class="w-12 h-12 bg-teal-50 text-teal-700 rounded-full flex items-center justify-center mb-4 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+                        <i data-lucide="network" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Complex Networks</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Studying the statistical properties of power-law networks and their impact on dynamical processes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl font-serif font-bold text-slate-900 mb-12 border-b border-slate-100 pb-4 flex items-baseline justify-between">
+                <span>Selected Publications</span>
+                <span class="text-sm font-sans font-normal text-slate-500 hidden sm:inline-block">From Google Scholar</span>
+            </h2>
+
+            <div class="space-y-10">
+                <!-- Pub 1 -->
+                <div class="group relative pl-8 border-l-2 border-slate-100 hover:border-teal-400 transition-colors">
+                    <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-white border-2 border-slate-200 group-hover:border-teal-400 transition-colors"></div>
+                    <div class="flex flex-col sm:flex-row sm:items-baseline gap-2 mb-1">
+                        <h3 class="text-lg font-bold text-slate-900 leading-tight group-hover:text-teal-800 transition-colors">
+                            When to boost: How dose timing determines the epidemic threshold
+                        </h3>
+                        <span class="text-xs font-bold text-teal-600 bg-teal-50 px-2 py-0.5 rounded uppercase tracking-wide whitespace-nowrap">
+                            2024
+                        </span>
+                    </div>
+                    <p class="text-slate-600 font-medium italic mb-1 text-sm">Recent Preprints / Complex Networks XIII</p>
+                    <p class="text-slate-500 text-sm mb-2">F. Colaiori, et al.</p>
+                    <span class="inline-block text-[10px] font-bold text-slate-400 uppercase tracking-widest border border-slate-200 px-2 rounded">Epidemiology</span>
+                </div>
+
+                <!-- Pub 2 -->
+                <div class="group relative pl-8 border-l-2 border-slate-100 hover:border-teal-400 transition-colors">
+                    <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-white border-2 border-slate-200 group-hover:border-teal-400 transition-colors"></div>
+                    <div class="flex flex-col sm:flex-row sm:items-baseline gap-2 mb-1">
+                        <h3 class="text-lg font-bold text-slate-900 leading-tight group-hover:text-teal-800 transition-colors">
+                            Mutually cooperative epidemics on power-law networks
+                        </h3>
+                        <span class="text-xs font-bold text-teal-600 bg-teal-50 px-2 py-0.5 rounded uppercase tracking-wide whitespace-nowrap">
+                            2019
+                        </span>
+                    </div>
+                    <p class="text-slate-600 font-medium italic mb-1 text-sm">Physical Review E</p>
+                    <p class="text-slate-500 text-sm mb-2">P.B. Cui, F. Colaiori, C. Castellano</p>
+                    <span class="inline-block text-[10px] font-bold text-slate-400 uppercase tracking-widest border border-slate-200 px-2 rounded">Network Theory</span>
+                </div>
+
+                <!-- Pub 3 -->
+                <div class="group relative pl-8 border-l-2 border-slate-100 hover:border-teal-400 transition-colors">
+                    <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-white border-2 border-slate-200 group-hover:border-teal-400 transition-colors"></div>
+                    <div class="flex flex-col sm:flex-row sm:items-baseline gap-2 mb-1">
+                        <h3 class="text-lg font-bold text-slate-900 leading-tight group-hover:text-teal-800 transition-colors">
+                            Interplay between media and social influence in the collective behavior of opinion dynamics
+                        </h3>
+                        <span class="text-xs font-bold text-teal-600 bg-teal-50 px-2 py-0.5 rounded uppercase tracking-wide whitespace-nowrap">
+                            2015
+                        </span>
+                    </div>
+                    <p class="text-slate-600 font-medium italic mb-1 text-sm">Physical Review E</p>
+                    <p class="text-slate-500 text-sm mb-2">F. Colaiori, C. Castellano</p>
+                    <span class="inline-block text-[10px] font-bold text-slate-400 uppercase tracking-widest border border-slate-200 px-2 rounded">Social Dynamics</span>
+                </div>
+
+                <!-- Pub 4 -->
+                <div class="group relative pl-8 border-l-2 border-slate-100 hover:border-teal-400 transition-colors">
+                    <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-white border-2 border-slate-200 group-hover:border-teal-400 transition-colors"></div>
+                    <div class="flex flex-col sm:flex-row sm:items-baseline gap-2 mb-1">
+                        <h3 class="text-lg font-bold text-slate-900 leading-tight group-hover:text-teal-800 transition-colors">
+                            Internal and external dynamics in language: Evidence from verb regularity in a historical corpus of English
+                        </h3>
+                        <span class="text-xs font-bold text-teal-600 bg-teal-50 px-2 py-0.5 rounded uppercase tracking-wide whitespace-nowrap">
+                            2014
+                        </span>
+                    </div>
+                    <p class="text-slate-600 font-medium italic mb-1 text-sm">PLoS ONE</p>
+                    <p class="text-slate-500 text-sm mb-2">C.F. Cuskley, M. Pugliese, C. Castellano, F. Colaiori, et al.</p>
+                    <span class="inline-block text-[10px] font-bold text-slate-400 uppercase tracking-widest border border-slate-200 px-2 rounded">Linguistics</span>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-center">
+                <a href="https://scholar.google.it/citations?hl=en&user=OpVwPeEAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" class="inline-flex items-center text-slate-900 font-semibold border-b-2 border-slate-900 hover:text-teal-700 hover:border-teal-700 transition-all pb-1">
+                    View Full Publication List <i data-lucide="external-link" class="w-4 h-4 ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-24 bg-slate-900 text-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-serif font-bold mb-6">Let's Connect</h2>
+            <p class="text-slate-300 text-lg mb-10 max-w-2xl mx-auto">
+                I am available for academic collaboration and correspondence regarding my research at ISC-CNR.
+            </p>
+            
+            <div class="flex flex-col md:flex-row justify-center gap-6 mb-12">
+                <a href="mailto:francesca.colaiori@isc.cnr.it" class="flex items-center justify-center gap-3 bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 rounded-lg transition-colors font-medium text-lg">
+                    <i data-lucide="mail" class="w-5 h-5"></i>
+                    francesca.colaiori@isc.cnr.it
+                </a>
+            </div>
+
+            <div class="flex justify-center gap-12 border-t border-slate-800 pt-12">
+                <a href="https://www.linkedin.com/in/francescacolaiori/" target="_blank" class="text-slate-400 hover:text-white transition-colors flex flex-col items-center gap-2 group">
+                    <div class="p-4 bg-slate-800 rounded-full group-hover:bg-blue-600 transition-colors">
+                        <i data-lucide="linkedin" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-xs font-medium uppercase tracking-wider">LinkedIn</span>
+                </a>
+                
+                <a href="https://scholar.google.it/citations?hl=en&user=OpVwPeEAAAAJ" target="_blank" class="text-slate-400 hover:text-white transition-colors flex flex-col items-center gap-2 group">
+                    <div class="p-4 bg-slate-800 rounded-full group-hover:bg-white group-hover:text-slate-900 transition-colors">
+                        <i data-lucide="graduation-cap" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-xs font-medium uppercase tracking-wider">Scholar</span>
+                </a>
+
+                <a href="https://www.isc.cnr.it/staff-members/francesca-colaiori/" target="_blank" class="text-slate-400 hover:text-white transition-colors flex flex-col items-center gap-2 group">
+                    <div class="p-4 bg-slate-800 rounded-full group-hover:bg-teal-500 transition-colors">
+                        <i data-lucide="file-text" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-xs font-medium uppercase tracking-wider">CV / Institute</span>
+                </a>
+            </div>
+            
+            <p class="mt-16 text-slate-600 text-sm">
+                © <span id="year"></span> Francesca Colaiori. Rome, Italy.
+            </p>
+        </div>
+    </section>
+
+    <!-- Interactions Script -->
+    <script>
+        // Initialize Icons
+        lucide.createIcons();
+
+        // Update Year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Mobile Menu Logic
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+        let isMenuOpen = false;
+
+        menuBtn.addEventListener('click', () => {
+            isMenuOpen = !isMenuOpen;
+            if (isMenuOpen) {
+                mobileMenu.classList.remove('hidden');
+            } else {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+
+        // Close mobile menu when clicking a link
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                isMenuOpen = false;
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Navbar Scroll Effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 20) {
+                navbar.classList.add('bg-white/95', 'backdrop-blur-md', 'shadow-sm', 'py-4');
+                navbar.classList.remove('py-6');
+            } else {
+                navbar.classList.remove('bg-white/95', 'backdrop-blur-md', 'shadow-sm', 'py-4');
+                navbar.classList.add('py-6');
+            }
+        });
+    </script>
+</body>
+</html>
